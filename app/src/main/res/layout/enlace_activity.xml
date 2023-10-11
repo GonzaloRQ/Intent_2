@@ -9,7 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginStart="200dp"></EditText>
+        android:layout_marginStart="130dp"
+        android:text="Insertar enlace"></EditText>
 
     <TextView
         android:id="@+id/urlText"
@@ -17,12 +18,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="200dp"
         android:textSize="20dp"
-        android:text="Ejemplo">
+        android:text="">
     </TextView>
 
     <Button
         android:id="@+id/urlClicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"></Button>
+        android:layout_marginStart="100dp"
+        android:text="Acceder a la página web">
+    </Button>
 </LinearLayout>
